@@ -1,0 +1,101 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: #000 url(images/speckle.jpg) repeat scroll 0 0;
+  font-family: 'Chelsea Market', Arial, serif;
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Frijole', Arial, serif;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: .75em; }
+
+a {
+	color: #000;
+}
+
+#about {
+  margin: 10% auto 0 auto;
+  padding: 3em;
+  padding-bottom: 5em;
+  list-style-type: none;
+  font-size: 200%;
+  text-shadow: 0px 1px 1px #777;
+  background: #E4E4E4 no-repeat scroll 3% 50%;
+  z-index: 100;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: 3px 3px 7px #000;
+  -webkit-box-shadow: 3px 3px 7px #000;
+  box-shadow: 3px 3px 7px #000;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+}
+
+#about h2 {
+  font-size: 1.8em;
+}
+#about ul {
+  margin:0;
+  width:100%;
+}
+#about li {
+  color: #222;
+  list-style-type: none;
+  padding: .25em 0;
+  font-size: .8em;
+  font-weight: 100;
+}
+
+a:hover {
+   color: #444;
+}
+
+#melissa{
+  float:  left;
+  vertical-align: middle;
+  margin: .75em 1.5em 0 0;
+  height: auto;
+  background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 5px #000;
+  -webkit-box-shadow: 0 1px 5px #000;
+  box-shadow: 0 1px 2px #000;
+}
+
+#melissa:hover {
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  background-color: #EFEFEF;
+  margin-bottom: .6em;
+  z-index: 100;
+  -moz-box-shadow: 1px 1px 5px #111111;
+  -webkit-box-shadow: 1px 1px 5px #111111;
+  box-shadow: 1px 1px 5px #111111;
+}
